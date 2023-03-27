@@ -1,0 +1,353 @@
+@media screen and (max-width:480px){
+    .xs{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+    .xs-m{
+        width: 100%;
+        display: block;
+        font-size: 1em;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+
+    .xs-2{
+        width: 15%;
+        height: 30px;
+        font-size: 1em;
+    }
+
+    .m-fs{
+        font-size: 1em;
+    }
+
+    .xs-dn{
+        display: none;
+    }
+
+
+    .xs-12{
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+
+    }
+
+    .mta{
+        text-align: center;
+    }
+
+    .xs-12-m{
+        width: 100%;
+        display: block;
+    
+        padding: 0;
+        font-size: 16px;
+
+    }
+
+    .xs-12-2{
+        width: 100%;
+        display: inline-block;
+        margin: auto;
+        font-size: 16px;
+        margin-top: 50px;
+        font-size: 24px;
+    }
+
+    .xs-6{
+        width: 45%;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .xs-3{
+        background-color: #34AD54;
+    }
+
+ 
+    
+    header .header-media{
+        display: block;
+        position: absolute;
+        right: 20px;
+        background-color: white;
+      
+    }
+
+  
+    .mh{
+        height: 650px;
+       
+    }
+
+    .container{
+        position: absolute;
+        top: 320px;
+    }
+  
+   
+
+   .menubar{
+    position: absolute;
+    display: none;
+    height: auto;
+    width: 100%;
+    top: 60px;
+    z-index: 2;
+
+   }
+      
+   .menubar a{
+    display: block;
+   }
+  
+
+   .bgimage{
+     height: 300px;
+     width: 480px;
+     
+   }
+
+   .headline{
+     position: absolute;
+     left: 0;
+   }
+
+   .ma{
+     margin: 0 0 0 200px;
+   }
+
+   .ovh{
+    overflow: hidden;
+   }
+
+   .sticky2{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+   }
+   .drop{
+    background-color:#34AD54;
+    font-size: 20px;
+    position: absolute;
+    color: #FF9933;
+    width: 200px;
+    text-align: left;
+    top: 80px;
+    left: 120px;
+    z-index: 4;
+}
+
+.client > .swiper{
+    width: 100%;
+    font-size: 18px;
+    height: fit-content;
+}
+.swiper {
+    width: 400px;
+    height: 315px;
+}
+ 
+}     
+
+
+@media (min-width:481px) and (max-width:768px){
+    .sm{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .sm-m{
+        width: 100%;
+        display: block;
+        font-size: 1em;
+        position: relative;
+        margin: 0;
+        padding: 20px 80px;
+        
+    }
+
+
+    .sm-12-m{
+        width: 100%;
+        /* display: inline-block; */
+        padding: 0;
+        font-size: 16px;
+
+    }
+
+
+    .sm-2{
+        width: 15%;
+        height: 30px;
+        font-size: 1em;
+    }
+
+    .m-fs{
+        font-size: 1em;
+    }
+
+    .sm-dn{
+        display: none;
+    }
+
+
+    .sm-12{
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+
+    }
+
+    .mta{
+        text-align: center;
+    }
+
+   
+
+    .sm-12-2{
+        width: 100%;
+        display: inline-block;
+        padding: 20px 50px;
+        font-size: 16px;
+    
+    }
+
+    .sm-6{
+        width: 49%;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+    .sm-4{
+        width: 24%;
+        display: inline-block;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .sm-3{
+        background-color: #34AD54;
+    }
+
+ 
+    
+    header .header-media{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+  
+    .mh{
+        height: 650px;
+       
+    }
+
+    .container{
+        position: absolute;
+        top: 320px;
+    }
+  
+    .mm0{
+        margin: 0;
+    }
+
+   .menubar{
+    position: absolute;
+    display: none;
+    height: auto;
+    width: 50%;
+    top: 60px;
+    right: 0;
+    z-index: 2;
+
+   }
+      
+   .menubar a{
+    display: block;
+   }
+  
+
+   .bgimage{
+     height: 300px;
+     width: 100%;
+     
+   }
+
+   .headline{
+     position: absolute;
+     left: 0;
+   }
+
+   .ma{
+     margin: 0 0 0 200px;
+   }
+
+   .ovh{
+    overflow: hidden;
+   }
+
+   .sticky2{
+    position: fixed;
+    top: 0;
+    z-index: 3;
+   }
+
+
+   .drop{
+    background-color:#34AD54;
+    font-size: 20px;
+    position: absolute;
+    color: #FF9933;
+    width: 200px;
+    text-align: left;
+    top: 80px;
+    left: 120px;
+    z-index: 4;
+}
+
+.product::after{
+    content: '';
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    z-index: 1;
+    height: 260px;
+    width: 1280px;
+    background-image: url(images/bg-product-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    display: none;
+}
+
+.farming{
+    padding: 30px 200px;
+}
+
+.w400{
+    margin-top: 20px;
+}
+
+.blog{
+    margin-top: 20px;
+}
+
+}     
