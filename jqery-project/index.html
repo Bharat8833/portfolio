@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256- 
+    pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background-color: burlywood;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            
+
+        }
+
+        .boxx {
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .value {
+            color: rgb(128, 128, 128);
+            font-size: 30px;
+        }
+
+    
+        input {
+            margin: 10px;
+            background-color: blue;
+            color: rgb(255, 255, 255);
+            padding: 20px;
+            font-weight: bold;
+            font-size: 20px;
+
+        }
+
+        input::placeholder {
+            color: rgb(0, 255, 38);
+
+        }
+
+        .main{
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <div class="row">
+
+                <div class="value">0</div>
+                <input type="range" value="0" class="range" oninput="getdata(this)" style="padding: 0;width: 400px;" />
+            </div>
+
+
+            <div>
+                <div class="boxx">BHARAT</div>
+                <input type="text" class=" bg" oninput="getdata()" placeholder="Bgcolor"><br>
+                <input type="number" class="ra" oninput="getdata()" placeholder="Border-radius"><br>
+                <input type="text" class="tc" oninput="getdata()" placeholder="text-color"><br>
+                <input type="number" class="ts" oninput="getdata()" placeholder="font-size"><br>
+                <input type="text" class="bs" oninput="getdata()" placeholder="box-shadow ex: 0 0 px color "><br>
+                <input type="text" class="hover" oninput="getdata()" placeholder="hover-text-color">
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+    <script>
+        // $(window).ready(function(){
+        function getdata() {
+
+            var range = $('.range').val();
+            $('.value').text(range);
+
+            var color = $('.bg').val();
+            $('.boxx').css('background-color', '' + color + '');
+
+            var radius = $('.ra').val();
+            $('.boxx').css('border-radius', '' + radius + '%');
+
+            var fc = $('.tc').val();
+            $('.boxx').css('color', '' + fc + '');
+
+            var fs = $('.ts').val();
+            $('.boxx').css('font-size', '' + fs + 'px');
+
+            var hover = $('.hover').val();
+            $('.boxx').mouseenter(function () {
+                $(this).css('color', '' + hover + '');
+            });
+            $('.boxx').mouseleave(function () {
+                $(this).css('color', '' + fc + '');
+            });
+            
+            var bs = $('.bs').val();
+            $('.boxx').css('box-shadow', '' + bs + '');
+
+
+
+
+
+        }
+
+        // })
+    </script>
+</body>
+
+</html>
