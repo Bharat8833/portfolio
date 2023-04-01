@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</head>
+<style></style>
+
+<body>
+    <header class="flex justify-center p-5">
+        <div class="flex justify-between items-center container">
+            <div href="#">
+                <i class="fa-solid fa-comment text-indigo-600 text-3xl"></i>
+                <span class="text-3xl font-bold ml-3 font-sans">Pavo</span>
+            </div>
+            <i class="fa-solid fa-bars text-3xl lg:hidden"></i>
+            <nav
+                class="lg:w-1/2 lg:text-right hidden lg:relative lg:top-0 lg:bg-none lg:block absolute right-0  w-full top-20 bg-gradient-to-b from-cyan-200 to-white sm:rounded-2xl">
+                <a href="#"
+                    class="text-1xl font-bold text-pink-400 duration-1000 hover:shadow-lg p-3 hover:shadow-gray-500 rounded-2xl">Home</a>
+                <a href="#"
+                    class="about text-1xl text-gray-500 font-bold hover:text-pink-400 duration-1000 hover:shadow-lg hover:shadow-gray-500 rounded-2xl p-3">About</a>
+                <a href="#"
+                    class="text-1xl text-gray-500 font-bold hover:text-pink-400 duration-1000 hover:shadow-lg hover:shadow-gray-500 rounded-2xl p-3">Blog</a>
+                <a href="#"
+                    class="text-1xl text-gray-500 font-bold hover:text-pink-400 duration-1000 hover:shadow-lg hover:shadow-gray-500 rounded-2xl p-3">Gallary</a>
+                <a href="#"
+                    class="text-1xl text-gray-500 font-bold hover:text-pink-400 duration-1000 hover:shadow-lg hover:shadow-gray-500 rounded-2xl p-3">Contact</a>
+                <a href="#"
+                    class="text-2xl text-indigo-700 font-bold hover:text-pink-400 duration-1000 hover:shadow-lg hover:shadow-gray-500 rounded-2xl p-3"><i
+                        class="fa-brands fa-apple"></i></a>
+                <a href="#"
+                    class="text-2xl text-indigo-700 font-bold hover:text-pink-400 duration-1000 hover:shadow-lg hover:shadow-gray-500 rounded-2xl p-3"><i
+                        class="fab fa-android"></i></a>
+            </nav>
+        </div>
+    </header>
+    <section class="bg-gradient-to-b from-indigo-200 to-white flex justify-center p-3">
+        <div class="container py-6">
+            <div
+                class="flex justify-center mt-24 items-center flex-col gap-6 sm:flex-col sm:gap-6 lg:gap-0 lg:flex-row">
+                <div class="lg:w-1/2 lg:pr-60">
+                    <p class="text-5xl font-bold text-gray-700">
+                        Team management mobile application
+                    </p>
+                    <p class="text-gray-600 text-xl mt-8">
+                        Start getting things done together with your team based on Pavo's
+                        revolutionary team management features
+                    </p>
+                    <button
+                        class="bg-indigo-600 hover:bg-transparent mt-7 hover:text-indigo-600 text-white text-xl hover:outline-indigo-600 hover:outline duration-200 rounded-3xl px-10 py-3">
+                        <i class="fab fa-apple"></i> Download
+                    </button>
+                    <button
+                        class="ml-5 bg-pink-400 text-white text-xl hover:text-pink-400 rounded-3xl px-10 py-3 hover:bg-transparent hover:outline-pink-400 hover:outline duration-200">
+                        <i class="fab fa-android"></i> Download
+                    </button>
+                </div>
+                <div>
+                    <img src="images/header-smartphone.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex justify-center bg-white p-3">
+        <div class="container">
+            <div class="flex justify-center">
+                <p class="text-4xl text-center mt-24 p-4 w-4/5 font-bold text-gray-700">
+                    Team management mobile apps don’t get better than Pavo. It’s
+                    probably the best app in the world for this purpose. Don’t hesitate
+                    to give it a try today and you will fall in love with it
+                </p>
+            </div>
+            <div class="flex justify-center flex-col gap-8 mt-12">
+                <div class="flex lg:justify-center lg:flex-row flex-col gap-10 items-center">
+                    <div class="bg-purple-100 flex flex-col items-center lg:w-1/4 p-10 text-center rounded-xl">
+                        <img src="images/features-icon-1.svg" height="70px" width="70px" />
+                        <p class="font-bold text-2xl mt-3">Platform Integration</p>
+                        <p class="text-gray-600 text-lg">
+                            You sales force can use the app on any smartphone platform
+                            without compatibility issues
+                        </p>
+                    </div>
+                    <div class="bg-purple-100 flex flex-col items-center lg:w-1/4 p-10 text-center rounded-xl">
+                        <img src="images/features-icon-2.svg" height="65px" width="65px" />
+                        <p class="font-bold text-2xl mt-3">Platform Integration</p>
+                        <p class="text-gray-600 text-lg">
+                            You sales force can use the app on any smartphone platform
+                            without compatibility issues
+                        </p>
+                    </div>
+                    <div class="bg-purple-100 flex flex-col items-center lg:w-1/4 p-10 text-center rounded-xl">
+                        <img src="images/features-icon-3.svg" height="70px" width="70px" />
+                        <p class="font-bold text-2xl mt-3">Platform Integration</p>
+                        <p class="text-gray-600 text-lg">
+                            You sales force can use the app on any smartphone platform
+                            without compatibility issues
+                        </p>
+                    </div>
+                </div>
+                <div class="flex lg:justify-center lg:flex-row flex-col gap-10 items-center pb-5">
+                    <div class="bg-purple-100 flex flex-col items-center lg:w-1/4 p-10 text-center rounded-xl">
+                        <img src="images/features-icon-4.svg" height="70px" width="70px" />
+                        <p class="font-bold text-2xl mt-3">Platform Integration</p>
+                        <p class="text-gray-600 text-lg">
+                            You sales force can use the app on any smartphone platform
+                            without compatibility issues
+                        </p>
+                    </div>
+                    <div class="bg-purple-100 flex flex-col items-center lg:w-1/4 p-10 text-center rounded-xl">
+                        <img src="images/features-icon-5.svg" height="70px" width="70px" />
+                        <p class="font-bold text-2xl mt-3">Platform Integration</p>
+                        <p class="text-gray-600 text-lg">
+                            You sales force can use the app on any smartphone platform
+                            without compatibility issues
+                        </p>
+                    </div>
+                    <div class="bg-purple-100 flex flex-col items-center lg:w-1/4 p-10 text-center rounded-xl">
+                        <img src="images/features-icon-6 (1).svg" height="70px" width="70px" />
+                        <p class="font-bold text-2xl mt-3">Platform Integration</p>
+                        <p class="text-gray-600 text-lg">
+                            You sales force can use the app on any smartphone platform
+                            without compatibility issues
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex flex-col items-center justify-center">
+        <div class="container flex flex-col lg:flex-row justify-center gap-12 items-center py-24">
+            <div class="lg:w-1/4 p-3">
+                <p class="text-4xl font-bold">
+                    Results driven ground breaking technology
+                </p>
+                <p class="text-lg text-gray-500 mt-2">
+                    Based on our team's extensive experience in developing line of
+                    business applications and constructive customer feedback we reached
+                    a new level of revenue.
+                </p>
+                <p class="text-lg text-gray-500 mt-2">
+                    We enjoy helping small and medium sized tech businesses take a shot
+                    at established Fortune 500 companies
+                </p>
+            </div>
+            <div>
+                <img src="images/details-1.jpg" class="p-5" />
+            </div>
+        </div>
+        <div class="container flex flex-col lg:flex-row justify-center gap-12 items-center py-24">
+            <div>
+                <img src="images/details-2.jpg" class="p-5" />
+            </div>
+            <div class="lg:w-1/3 p-3">
+                <p class="text-4xl font-bold">
+                    Instant results for the marketing department
+                </p>
+                <p class="text-lg text-gray-500 mt-5">
+                    <i class="fa-solid fa-chevron-right text-purple-900"></i> Features
+                    that will help you and your marketers
+                </p>
+                <p class="text-lg text-gray-500 mt-2">
+                    <i class="fa-solid fa-chevron-right text-purple-900"></i> Smooth
+                    learning curve due to the knowledge base
+                </p>
+                <p class="text-lg text-gray-500 mt-2">
+                    <i class="fa-solid fa-chevron-right text-purple-900"></i> Ready
+                    out-of-the-box with minor setup settings
+                </p>
+                <div class="mt-5">
+                    <button
+                        class="btn bg-purple-700 px-10 py-4 text-white text-lg rounded-full outline outline-purple-800 hover:bg-transparent hover:text-black">
+                        Lightbox
+                    </button>
+                    <button class="btn outline px-10 py-4 text-lg rounded-full ml-3 hover:bg-black hover:text-white">
+                        Details
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container flex flex-col lg:flex-row justify-center gap-12 items-center py-24">
+            <div class="lg:w-1/4 p-3">
+                <p class="text-4xl font-bold">
+                    Results driven ground breaking technology
+                </p>
+                <p class="text-lg text-gray-500 mt-2">
+                    Based on our team's extensive experience in developing line of
+                    business applications and constructive customer feedback we reached
+                    a new level of revenue.
+                </p>
+                <p class="text-lg text-gray-500 mt-2">
+                    We enjoy helping small and medium sized tech businesses take a shot
+                    at established Fortune 500 companies
+                </p>
+            </div>
+            <div>
+                <img src="images/details-3.jpg" class="p-5" />
+            </div>
+        </div>
+        <div class="container flex flex-col items-center lg:flex-row justify-center py-20 gap-20 text-center p-5">
+            <div class="flex  gap-20">
+                <div>
+                    <p class="text-7xl font-bold text-gray-800 count">231</p>
+                    <p>Happy Users</p>
+                </div>
+                <div>
+                    <p class="text-7xl font-bold text-gray-800 count">285</p>
+                    <p>Issues Solved</p>
+                </div>
+            </div>
+            <div class="flex gap-20">
+                <div>
+                    <p class="text-7xl font-bold text-gray-800 count">159</p>
+                    <p>Good Reviews</p>
+                </div>
+                <div>
+                    <p class="text-7xl font-bold text-gray-800 count">127</p>
+                    <p>Case Studies</p>
+                </div>
+            </div>
+            <div>
+                <p class="text-7xl font-bold text-gray-800 count">211</p>
+                <p>Orders Received</p>
+            </div>
+        </div>
+    </section>
+    <section class="flex justify-center py-20 bg-blue-100 text-center">
+        <div class="container">
+            <p class="text-4xl text-gray-800 font-bold">What do users think about Pavo</p>
+            <div class="mt-20">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide flex flex-col items-center py-10 rounded-lg">
+                            <img src="images/testimonial-1.jpg" height="100px" width="100px" class="rounded-full">
+                            <p class="italic px-20 mt-5">The app support team is amazing. They've helped me with some
+                                issues and I am so grateful to the entire team</p>
+                            <p class="font-bold text-2xl text-gray-700 mt-5">Jude Thorn - Designer</p>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center py-10 rounded-lg">
+                            <img src="images/testimonial-2.jpg" height="100px" width="100px" class="rounded-full">
+                            <p class="italic px-20 mt-5">It's been so fun to work with Pavo, I've managed to integrate
+                                it properly into my
+                                business flow and it's great</p>
+                            <p class="font-bold text-2xl text-gray-700 mt-5">Roy Smith - Developer</p>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center py-10 rounded-lg">
+                            <img src="images/testimonial-3.jpg" height="100px" width="100px" class="rounded-full">
+                            <p class="italic px-20 mt-5">We were so focused on launching as many campaigns as possible
+                                that we've forgotten to
+                                target our loyal customers</p>
+                            <p class="font-bold text-2xl text-gray-700 mt-5">Marsha Singer - Marketer</p>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center py-10 rounded-lg">
+                            <img src="images/testimonial-4.jpg" height="100px" width="100px" class="rounded-full">
+                            <p class="italic px-20 mt-5">We were so focused on launching as many campaigns as possible
+                                that we've forgotten to
+                                target our loyal customers</p>
+                            <p class="font-bold text-2xl text-gray-700 mt-5">Marsha Singer - Marketer</p>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center py-10 rounded-lg">
+                            <img src="images/testimonial-1.jpg" height="100px" width="100px" class="rounded-full">
+                            <p class="italic px-20 mt-5">The app support team is amazing. They've helped me with some
+                                issues and I am so grateful to the entire team</p>
+                            <p class="font-bold text-2xl text-gray-700 mt-5">Jude Thorn - Designer</p>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center py-10 rounded-lg">
+                            <img src="images/testimonial-2.jpg" height="100px" width="100px" class="rounded-full">
+                            <p class="italic px-20 mt-5">It's been so fun to work with Pavo, I've managed to integrate
+                                it properly into my
+                                business flow and it's great</p>
+                            <p class="font-bold text-2xl text-gray-700 mt-5">Roy Smith - Developer</p>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center py-10 rounded-lg">
+                            <img src="images/testimonial-3.jpg" height="100px" width="100px" class="rounded-full">
+                            <p class="italic px-20 mt-5">We were so focused on launching as many campaigns as possible
+                                that we've forgotten to
+                                target our loyal customers</p>
+                            <p class="font-bold text-2xl text-gray-700 mt-5">Marsha Singer - Marketer</p>
+                        </div>
+                        <div class="swiper-slide flex flex-col items-center py-10 rounded-lg">
+                            <img src="images/testimonial-4.jpg" height="100px" width="100px" class="rounded-full">
+                            <p class="italic px-20 mt-5">We were so focused on launching as many campaigns as possible
+                                that we've forgotten to
+                                target our loyal customers</p>
+                            <p class="font-bold text-2xl text-gray-700 mt-5">Marsha Singer - Marketer</p>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next text-black"></div>
+                    <div class="swiper-button-prev text-black"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flex justify-center bg-cover bg-no-repeat bg-blend-multiply pt-40 px-3"
+        style="background-image: url(images/pricing-background.jpg);background-color: rgba(0, 0, 0, 0.797);">
+        <div class="container flex flex-col justify-center">
+            <div class="flex flex-col items-center text-center">
+            <p class="text-4xl text-white font-bold">Pricing options for all budgets</p>
+            <p class="w-4/6 text-xl text-white mt-5">Our pricing plans are setup in such a way that any user can start enjoying Pavo without worrying so much
+                about costs. They are flexible and work for any type of industry</p>
+            </div>
+            <div class="flex flex-col xl:flex-row justify-center mt-10 items-center gap-20 xl:gap-5">
+                <div class="bg-white text-center px-10 py-16 box-border xl:w-1/4 rounded-2xl border border-black relative" style="margin-bottom: -50px;">
+                    <p class="text-pink-400 text-4xl font-bold">STANDARD</p>
+                    <p class="text-7xl mt-3 flex justify-center items-center"><span class="text-3xl">$</span>29</p>
+                    <p>monthly</p>
+                    <div class="text-left">
+                    <p class="text-xl mt-2">This basic package covers the marketing needs of small startups</p>
+                    <p class="text-xl mt-10"><i class="fa-solid fa-chevron-right text-blue-400"></i> List building and relations</p>
+                    <p class="text-xl mt-2"><i class="fa-solid fa-chevron-right text-blue-400"></i> Seamless platform integration</p>
+                    <p class="text-xl mt-2"><i class="fa-solid fa-chevron-right text-blue-400"></i> Great performance on devices</p>
+                    <p class="text-xl mt-2"><i class="fa-solid fa-chevron-right text-blue-400"></i> Community support and videos</p>
+                    </div>
+                    <button class="bg-blue-500 rounded-full font-bold p-3 text-white absolute right-32" style="bottom: -20px;">Download</button>
+                </div>
+                <div class="bg-white text-center px-10 py-16 box-border xl:w-1/4 rounded-2xl border border-black relative" style="margin-bottom: -50px;">
+                    <p class="text-pink-400 text-4xl font-bold">STANDARD</p>
+                    <p class="text-7xl mt-3 flex justify-center items-center"><span class="text-3xl">$</span>29</p>
+                    <p>monthly</p>
+                    <div class="text-left">
+                    <p class="text-xl mt-2">This basic package covers the marketing needs of small startups</p>
+                    <p class="text-xl mt-10"><i class="fa-solid fa-chevron-right text-blue-400"></i> List building and relations</p>
+                    <p class="text-xl mt-2"><i class="fa-solid fa-chevron-right text-blue-400"></i> Seamless platform integration</p>
+                    <p class="text-xl mt-2"><i class="fa-solid fa-chevron-right text-blue-400"></i> Great performance on devices</p>
+                    <p class="text-xl mt-2"><i class="fa-solid fa-chevron-right text-blue-400"></i> Community support and videos</p>
+                    </div>
+                    <button class="bg-blue-500 rounded-full font-bold p-3 text-white absolute right-32" style="bottom: -20px;">Download</button>
+                </div>
+                <div class="bg-white text-center px-10 py-16 box-border xl:w-1/4 rounded-2xl border border-black relative" style="margin-bottom: -50px;">
+                    <p class="text-pink-400 text-4xl font-bold">STANDARD</p>
+                    <p class="text-7xl mt-3 flex justify-center items-center"><span class="text-3xl">$</span>29</p>
+                    <p>monthly</p>
+                    <div class="text-left">
+                    <p class="text-xl mt-2">This basic package covers the marketing needs of small startups</p>
+                    <p class="text-xl mt-10"><i class="fa-solid fa-chevron-right text-blue-400"></i> List building and relations</p>
+                    <p class="text-xl mt-2"><i class="fa-solid fa-chevron-right text-blue-400"></i> Seamless platform integration</p>
+                    <p class="text-xl mt-2"><i class="fa-solid fa-chevron-right text-blue-400"></i> Great performance on devices</p>
+                    <p class="text-xl mt-2"><i class="fa-solid fa-chevron-right text-blue-400"></i> Community support and videos</p>
+                    </div>
+                    <button class="bg-blue-500 rounded-full font-bold p-3 text-white absolute right-32" style="bottom: -20px;">Download</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex justify-center items-center pt-52 gap-20" >
+        <div class="container py-20 bg-cover bg-no-repea flex flex-col lg:flex-row justify-center items-center gap-20" style="background-image: url(images/conclusion-background.jpg);">
+            <div>
+              <img src="images/conclusion-smartphone.png">
+            </div>
+            <div class="lg:w-1/2">
+                 <p class="text-4xl lg:w-4/5">Team management mobile applications don't get much better than Pavo. Download it today</p>
+                 <button
+                        class="bg-indigo-600 hover:bg-transparent mt-7 hover:text-indigo-600 text-white text-xl hover:outline-indigo-600 hover:outline duration-200 rounded-3xl px-10 py-3">
+                        <i class="fab fa-apple"></i> Download
+                    </button>
+                    <button
+                        class="ml-5 bg-pink-400 text-white text-xl hover:text-pink-400 rounded-3xl px-10 py-3 hover:bg-transparent hover:outline-pink-400 hover:outline duration-200">
+                        <i class="fab fa-android"></i> Download
+                    </button>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="flex justify-center mt-20 py-20 bg-gradient-to-t from-indigo-200 to-white">
+           <div class="container text-center flex flex-col items-center">
+               <p class="text-3xl lg:w-4/6 text-gray-700 font-bold">Pavo is a mobile application for marketing automation and you can reach the team at 
+                <a href="#" class="text-blue-500 hover:text-gray-500 h">email@domain.com</a></p>
+                <div  class="text-gray-500 flex gap-20 mt-32" >
+                    <div class="text-gray-400 flex gap-10">
+                        <p class="hover:cursor-pointer hover:text-pink-900">Article Details</p>
+                        <p class="hover:cursor-pointer hover:text-pink-900">Terms & Conditions</p>
+                        <p class="hover:cursor-pointer hover:text-pink-900">Privacy Policy</p>
+                    </div>
+                    <div class="hover:cursor-pointer hover:text-pink-900">
+                        Copyright © Your name
+                    </div>
+                    <div class="hover:cursor-pointer hover:text-pink-900">
+                        Distributed by :Themewagon
+                    </div>
+                </div>
+           </div>
+    </footer>
+    <i class="fa-solid fa-chevron-up  "></i>
+
+    <script>
+        $(window).ready(function () {
+            $(".fa-bars").click(function () {
+                $("nav").css("display", "block");
+                $("nav a").css("display", "block");
+            });
+            $(".fa-bars").dblclick(function () {
+                $("nav").css("display", "none");
+            });
+        });
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 10) {
+                $("header").addClass("sticky1");
+            } else {
+                $("header").removeClass("sticky1");
+            }
+        });
+        $(document).ready(function () {
+
+            var counters = $(".count");
+            var countersQuantity = counters.length;
+            var counter = [];
+
+            for (i = 0; i < countersQuantity; i++) {
+                counter[i] = parseInt(counters[i].innerHTML);
+            }
+
+            var count = function (start, value, id) {
+                var localStart = start;
+                setInterval(function () {
+                    if (localStart < value) {
+                        localStart++;
+                        counters[id].innerHTML = localStart;
+                    }
+                }, 40);
+            }
+
+            for (j = 0; j < countersQuantity; j++) {
+                count(0, counter[j], j);
+            }
+        });
+
+
+    </script>
+
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            breakpoints: {
+                320: {
+                    slidesPerView: 1
+                },
+                480: {
+                    slidesPerView: 1
+                },
+                1024: {
+                    slidesPerView: 2
+                },
+                1200: {
+                    slidesPerView: 3
+                }
+            },
+
+            spaceBetween: 30,
+            loop: true,
+            autoplay: true,
+            autoplayspeed: 100,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+
+
+
+
+
+        }); 
+    </script>
+</body>
+
+</html>
